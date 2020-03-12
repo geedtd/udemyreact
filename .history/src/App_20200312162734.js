@@ -1,5 +1,5 @@
 import React from 'react';
-
+import logo from './logo.svg';
 import './App.css';
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
       Enter Name:   
     </label>
     <input id="name" type="text" />
-    <button style={{backgroundColor: 'blue', color: 'white'}}>Submit</button>
+    <button {{style="backgroundColor: 'blue', color: 'white';"}}>Submit</button>
   </div>
   )
 }
