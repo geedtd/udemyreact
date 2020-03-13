@@ -2,10 +2,8 @@ import React from 'react';
 
 import './App.css';
 
-
-
 const App = () => {
-const buttonText= ['Hi' , 20];
+const buttonText="Click Me";
 
   return (
   <div>

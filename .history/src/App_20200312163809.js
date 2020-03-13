@@ -2,10 +2,12 @@ import React from 'react';
 
 import './App.css';
 
-
+function getButtonText() {
+  return "Click On Me";
+}
 
 const App = () => {
-const buttonText= ['Hi' , 20];
+const buttonText="Click Me";
 
   return (
   <div>

@@ -5,7 +5,7 @@ import './App.css';
 
 
 const App = () => {
-const buttonText= ['Hi' , 20];
+const buttonText="Click Me";
 
   return (
   <div>
@@ -13,7 +13,7 @@ const buttonText= ['Hi' , 20];
       Enter Name:   
     </label>
     <input id="name" type="text" />
-    <button style={{backgroundColor: 'blue', color: 'white'}}>{buttonText}</button>
+    <button style={{backgroundColor: 'blue', color: 'white'}}>{buttonText()}</button>
   </div>
   )
 }

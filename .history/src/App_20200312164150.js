@@ -5,7 +5,7 @@ import './App.css';
 
 
 const App = () => {
-const buttonText= ['Hi' , 20];
+const buttonText= ['Hi' , 'There'];
 
   return (
   <div>
